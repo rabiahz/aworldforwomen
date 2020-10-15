@@ -3,20 +3,21 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    font-family: 'Bree Serif'; font-size: 45px;
-    letter-spacing: 3px; 
-    text-align: center;
         background-color: #ddd;
         padding-left: 10px;
-   
-}
+       text-align: center;
 
+}
+h1{
+     font-family: 'Futura'; font-size: 45px;
+    letter-spacing: 3px; 
+    text-align: center;
+}
 /* Create three equal columns that floats next to each other */
 .column {
   float: inherit;
   width: 100%;
-  padding: 10px;
-height:500px /* Should be removed. Only for demonstration */
+  padding: 1px;
 }
 
 /* Clear floats after the columns */
@@ -53,7 +54,7 @@ ul,li{
 }
 ul{
   overflow:hidden;
-  padding:5px;
+  padding:20px;
 }
 ul li a{
   text-decoration:none;
@@ -113,18 +114,20 @@ ul li:nth-child(5n) a{
 
 }
 ul li a:hover,ul li a:focus{
-  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  /*-moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
   -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    */
   box-shadow:10px 10px 7px rgba(0,0,0,.7);
   -webkit-transform: scale(1.25);
   -moz-transform: scale(1.25);
   -o-transform: scale(1.25);
-  position:relative;
+  position: relative;
   z-index:5;
 }
 h2 {
 font-family: 'Nanum Pen Script', cursive;
   font-size:35px;
+    align-content: center;
 }
 ol{text-align:center;}
 ol li{display:inline;padding-right:1em;}
